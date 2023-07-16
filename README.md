@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Mert Urper</h1>
 <h3 align="center">A passionate Mobile App developer from Turkey</h3>
 
-<img align="right" alt="coding" width="400" src="https://media.tenor.com/YZPnGuPeZv8AAAAd/coding.gif">
+<img align="right" alt="coding" width="400" style="border:1,border-radius:10" src="https://media.tenor.com/YZPnGuPeZv8AAAAd/coding.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=meeertx&label=Profile%20views&color=0e75b6&style=flat" alt="meeertx" /> </p>
 
