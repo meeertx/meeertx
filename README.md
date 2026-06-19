@@ -6,8 +6,9 @@
 ========================================================================
 -->
 
-<!-- ====================== HEADER BANNER ====================== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:8B5CF6&height=220&section=header&text=Mert%20Urper&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Web%20%26%20Mobile%20Developer&descAlignY=58&descSize=20" alt="header"/>
+<!-- ====================== HEADER BANNER (self-hosted, always loads) ====================== -->
+<!-- Put header.svg inside an /assets folder in your repo. -->
+<img width="100%" src="assets/header.svg" alt="Mert Urper - Full-Stack Web & Mobile Developer"/>
 
 <!-- ====================== TYPING ANIMATION ====================== -->
 <div align="center">
@@ -132,6 +133,9 @@ const mert = {
 <br/>
 
 <!-- ====================== TROPHIES ====================== -->
+<!-- NOTE: github-profile-trophy is a third-party Vercel service that
+     occasionally goes down / rate-limits and shows blank. It usually loads
+     on refresh. If you want zero broken-image risk, delete this whole block. -->
 <h2 align="center">🏆 Trophies</h2>
 
 <div align="center">
@@ -205,9 +209,5 @@ const mert = {
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="dev quote" />
 </div>
 
-<!-- ====================== FOOTER ====================== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:0D1117&height=120&section=footer" alt="footer"/>
-
-<div align="center">
-  <sub>⭐️ If you like my work, check out my repos!</sub>
-</div>
+<!-- ====================== FOOTER (self-hosted, always loads) ====================== -->
+<img width="100%" src="assets/footer.svg" alt="footer"/>
