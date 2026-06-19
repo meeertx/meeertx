@@ -2,8 +2,7 @@
 ========================================================================
   MERT URPER · GITHUB PROFILE README
   Usage: Upload this as README.md to the repo  github.com/meeertx/meeertx
-  (A repo with the same name as your username = special profile README)
-  All cards share ONE custom palette: #0D1117 bg / #22D3EE / #A855F7
+  All cards share ONE palette: #0D1117 bg / #22D3EE cyan / #A855F7 purple
 ========================================================================
 -->
 
@@ -15,12 +14,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=22D3EE&center=true&vCenter=true&width=640&lines=Full-Stack+Web+Developer;Mobile+Apps+with+React+Native;TypeScript+is+my+daily+driver;I+turn+ideas+into+shipped+products" alt="Typing SVG" />
 </div>
 
-<!-- ====================== TOP BADGES ====================== -->
+<!-- ====================== TOP BADGES (all icons verified) ====================== -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=meeertx&label=Profile%20Views&color=22D3EE&style=flat-square" alt="profile views" />
-  <img src="https://img.shields.io/badge/Primary-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="primary lang" />
-  <img src="https://img.shields.io/badge/Based%20in-Turkey-A855F7?style=flat-square&logo=googlemaps&logoColor=white" alt="location" />
-  <img src="https://img.shields.io/badge/Open%20to-Collaboration-22D3EE?style=flat-square&logo=handshake&logoColor=white" alt="open" />
+  <img src="https://img.shields.io/badge/TypeScript%20Developer-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="typescript dev" />
+  <img src="https://img.shields.io/badge/Based%20in-T%C3%BCrkiye-A855F7?style=flat-square" alt="location" />
+  <img src="https://img.shields.io/badge/Open%20to-Collaboration-22D3EE?style=flat-square" alt="open" />
 </div>
 
 <br/>
@@ -107,8 +106,6 @@ const mert = {
 
 </div>
 
-<!-- TIP: add/remove any badge above. Keep the style=for-the-badge format consistent. -->
-
 <br/>
 
 <!-- ====================== GITHUB STATS ====================== -->
@@ -116,7 +113,16 @@ const mert = {
 
 <div align="center">
   <img height="170em" src="https://github-readme-stats.vercel.app/api?username=meeertx&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=22D3EE&icon_color=A855F7&text_color=A9B1D6&bg_color=0D1117" alt="stats" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=meeertx&layout=compact&hide_border=true&langs_count=8&title_color=22D3EE&text_color=A9B1D6&bg_color=0D1117" alt="top languages" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=meeertx&layout=compact&hide_border=true&langs_count=8&hide=roff,swift,jupyter%20notebook&size_weight=0.5&count_weight=0.5&title_color=22D3EE&text_color=A9B1D6&bg_color=0D1117" alt="top languages" />
+  <!--
+    LANGUAGE STATS FIX:
+    - hide=roff,swift,jupyter notebook  -> removes generated/forked noise
+    - size_weight=0.5 & count_weight=0.5 -> weighs by HOW MANY repos use a
+      language, not just total bytes, so TypeScript ranks where it should.
+    PERMANENT FIX (recommended): find the repo causing "Roff 96%" (usually a
+    fork or one with generated/man-page files) and exclude it by adding
+    &exclude_repo=THAT_REPO_NAME  to the URL above (comma-separate for more).
+  -->
 </div>
 
 <div align="center">
@@ -134,25 +140,19 @@ const mert = {
 
 <br/>
 
-<!-- ====================== ACTIVITY GRAPH ====================== -->
-<h2 align="center">📈 Contribution Graph</h2>
+<!-- ====================== CONTRIBUTION SNAKE (the green squares) ====================== -->
+<h2 align="center">🟩 Contribution Snake</h2>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=meeertx&hide_border=true&bg_color=0D1117&color=22D3EE&line=A855F7&point=FFFFFF&area=true&area_color=A855F7&custom_title=Mert's%20Contribution%20Graph" alt="activity graph" />
-</div>
-
-<br/>
-
-<!-- ====================== SNAKE ANIMATION ====================== -->
-<h2 align="center">🐍 Contribution Snake</h2>
-
-<div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/meeertx/meeertx/output/snake.svg" alt="snake animation" />
+  <img width="100%" src="https://raw.githubusercontent.com/meeertx/meeertx/output/snake.svg" alt="snake eating contribution squares" />
 </div>
 
 <!--
-  The snake is NOT automatic. Create a GitHub Action to generate it.
-  Add  .github/workflows/snake.yml  with this content:
+  ⚠️ IMPORTANT: This image stays BLANK until you set up the Action ONCE.
+  It renders YOUR green contribution squares with a snake eating them.
+
+  STEP 1 — In your repo, create the file:  .github/workflows/snake.yml
+  STEP 2 — Paste exactly this:
   ----------------------------------------------------------------
   name: Generate Snake
   on:
@@ -173,7 +173,9 @@ const mert = {
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   ----------------------------------------------------------------
-  Run it once via "Run workflow"; it creates the "output" branch.
+  STEP 3 — Go to the repo's "Actions" tab, open "Generate Snake",
+           click "Run workflow". It creates an "output" branch and the
+           snake appears. After that it auto-updates daily.
 -->
 
 <br/>
