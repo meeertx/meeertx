@@ -131,24 +131,12 @@ const mert = {
 
 <br/>
 
-<!-- ====================== CONTRIBUTION SNAKE (the green squares) ====================== -->
-<h2 align="center">🟩 Contribution Snake</h2>
+<!-- ====================== CONTRIBUTION GRAPH (works instantly, no setup needed) ====================== -->
+<h2 align="center">📅 Contribution Graph</h2>
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/meeertx/meeertx/output/snake.svg" alt="snake eating contribution squares" />
+  <img width="95%" src="https://ghchart.rshah.org/22d3ee/meeertx" alt="Mert's contribution graph" />
 </div>
-
-<!--
-  ⚠️ This image stays BLANK until you set up the Action ONCE.
-  Easiest way:
-  1. Upload / create the file  snake.yml  at this exact path in your repo:
-        .github/workflows/snake.yml
-     (In GitHub: "Add file" > "Create new file" > type the name as
-      ".github/workflows/snake.yml" — the folders are created automatically.)
-  2. Go to the "Actions" tab > "Generate Snake Animation" > "Run workflow".
-  3. It creates an "output" branch with snake.svg and the green squares appear.
-     After that it auto-updates on every push + twice a day.
--->
 
 <br/>
 
