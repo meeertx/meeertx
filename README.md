@@ -131,11 +131,11 @@ const mert = {
 
 <br/>
 
-<!-- ====================== CONTRIBUTION GRAPH (works instantly, no setup needed) ====================== -->
-<h2 align="center">📅 Contribution Graph</h2>
+<!-- ====================== CONTRIBUTION SNAKE (dark cyan squares, themed) ====================== -->
+<h2 align="center">🐍 Contribution Snake</h2>
 
 <div align="center">
-  <img width="95%" src="https://ghchart.rshah.org/22d3ee/meeertx" alt="Mert's contribution graph" />
+  <img width="100%" src="https://raw.githubusercontent.com/meeertx/meeertx/output/snake.svg" alt="contribution snake" />
 </div>
 
 <br/>
