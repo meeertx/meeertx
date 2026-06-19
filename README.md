@@ -7,8 +7,7 @@
 -->
 
 <!-- ====================== HEADER BANNER (self-hosted, always loads) ====================== -->
-<!-- Put header.svg inside an /assets folder in your repo. -->
-<img width="100%" src="assets/header.svg" alt="Mert Urper - Full-Stack Web & Mobile Developer"/>
+<img width="100%" src="header.svg" alt="Mert Urper - Full-Stack Web & Mobile Developer"/>
 
 <!-- ====================== TYPING ANIMATION ====================== -->
 <div align="center">
@@ -38,8 +37,8 @@ const mert = {
   location:  "Türkiye 🇹🇷",
   mainLang:  "TypeScript",
   stack:     ["React", "Next.js", "Node.js", "React Native"],
-  focus:     "Shipping end-to-end products, web & mobile",
-  mindset:   "Versatile — I adapt to whatever the problem needs",
+  focus:     "Building scalable, end-to-end web & mobile products",
+  mindset:   "Versatile across the full stack, focused on the right solution",
   learning:  "Always something new ⚡",
 };
 ```
@@ -132,18 +131,6 @@ const mert = {
 
 <br/>
 
-<!-- ====================== TROPHIES ====================== -->
-<!-- NOTE: github-profile-trophy is a third-party Vercel service that
-     occasionally goes down / rate-limits and shows blank. It usually loads
-     on refresh. If you want zero broken-image risk, delete this whole block. -->
-<h2 align="center">🏆 Trophies</h2>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=meeertx&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="trophies" />
-</div>
-
-<br/>
-
 <!-- ====================== CONTRIBUTION SNAKE (the green squares) ====================== -->
 <h2 align="center">🟩 Contribution Snake</h2>
 
@@ -152,34 +139,15 @@ const mert = {
 </div>
 
 <!--
-  ⚠️ IMPORTANT: This image stays BLANK until you set up the Action ONCE.
-  It renders YOUR green contribution squares with a snake eating them.
-
-  STEP 1 — In your repo, create the file:  .github/workflows/snake.yml
-  STEP 2 — Paste exactly this:
-  ----------------------------------------------------------------
-  name: Generate Snake
-  on:
-    schedule: [{ cron: "0 0 * * *" }]
-    workflow_dispatch:
-  jobs:
-    generate:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: Platane/snk@v3
-          with:
-            github_user_name: meeertx
-            outputs: dist/snake.svg
-        - uses: crazy-max/ghaction-github-pages@v3
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  ----------------------------------------------------------------
-  STEP 3 — Go to the repo's "Actions" tab, open "Generate Snake",
-           click "Run workflow". It creates an "output" branch and the
-           snake appears. After that it auto-updates daily.
+  ⚠️ This image stays BLANK until you set up the Action ONCE.
+  Easiest way:
+  1. Upload / create the file  snake.yml  at this exact path in your repo:
+        .github/workflows/snake.yml
+     (In GitHub: "Add file" > "Create new file" > type the name as
+      ".github/workflows/snake.yml" — the folders are created automatically.)
+  2. Go to the "Actions" tab > "Generate Snake Animation" > "Run workflow".
+  3. It creates an "output" branch with snake.svg and the green squares appear.
+     After that it auto-updates on every push + twice a day.
 -->
 
 <br/>
@@ -210,4 +178,4 @@ const mert = {
 </div>
 
 <!-- ====================== FOOTER (self-hosted, always loads) ====================== -->
-<img width="100%" src="assets/footer.svg" alt="footer"/>
+<img width="100%" src="footer.svg" alt="footer"/>
