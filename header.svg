@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" fill="none" role="img" aria-label="Mert Urper - Full-Stack Web and Mobile Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#10152b"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+      <animate attributeName="x1" values="-1;0;-1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5ff"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="18%" cy="28%" r="55%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="86%" cy="74%" r="52%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      .name  { font: 700 66px 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif; letter-spacing: 1px; }
+      .role  { font: 600 27px 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif; }
+      .mono  { font: 500 17px 'JetBrains Mono', 'Courier New', monospace; letter-spacing: 1px; }
+      .deco  { font: 700 120px 'JetBrains Mono', 'Courier New', monospace; }
+      .fade  { opacity: 0; animation: fade .9s ease forwards; }
+      .d1 { animation-delay: .15s; } .d2 { animation-delay: .45s; } .d3 { animation-delay: .75s; }
+      @keyframes fade { to { opacity: 1; } }
+      @keyframes pulse { 0%,100% { opacity:.10 } 50% { opacity:.22 } }
+      .pulse { animation: pulse 4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glowA)"/>
+  <rect width="1200" height="300" fill="url(#glowB)"/>
+
+  <!-- top + bottom animated accent bars -->
+  <rect x="0" y="0"   width="1200" height="4" fill="url(#accent)"/>
+  <rect x="0" y="296" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- decorative code glyphs -->
+  <text x="60"  y="210" class="deco pulse" fill="#22D3EE">&lt;/&gt;</text>
+  <text x="980" y="210" class="deco pulse" fill="#8B5CF6">{ }</text>
+
+  <!-- main text block -->
+  <g text-anchor="middle">
+    <text x="600" y="138" class="name fade d1" fill="url(#nameFill)">Mert Urper</text>
+    <text x="600" y="182" class="role fade d2" fill="#A9B1D6">Full-Stack Web &amp; Mobile Developer</text>
+    <rect x="470" y="200" width="260" height="2" rx="1" fill="url(#accent)" class="fade d2"/>
+    <text x="600" y="240" class="mono fade d3" fill="#22D3EE">TypeScript · React · Next.js · Node.js · React Native</text>
+  </g>
+</svg>
