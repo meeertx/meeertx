@@ -5,10 +5,7 @@
   <a href="https://linkedin.com/in/mert-urper">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://twitter.com/meert_urper">
-    <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X" />
-  </a>
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:mert.urper1@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=meeertx&label=Views&color=22D3EE&style=flat-square" alt="profile views" />
