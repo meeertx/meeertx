@@ -1,24 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" fill="none" role="img" aria-label="footer">
+<svg width="1200" height="110" viewBox="0 0 1200 110" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#10152b"/>
-      <stop offset="100%" stop-color="#0D1117"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#22D3EE"/>
     </linearGradient>
-    <linearGradient id="facc" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#22D3EE"/>
-      <stop offset="50%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#22D3EE"/>
-      <animate attributeName="x1" values="-1;0;-1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0D1117"/>
     </linearGradient>
-    <style>
-      .ftxt { font: 600 18px 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif; }
-    </style>
   </defs>
 
-  <rect width="1200" height="120" fill="url(#fbg)"/>
-  <rect x="0" y="0" width="1200" height="4" fill="url(#facc)"/>
-  <text x="600" y="68" text-anchor="middle" class="ftxt" fill="#A9B1D6">
-    Thanks for visiting! &#11088;  Feel free to explore my repositories.
-  </text>
+  <!-- top accent line -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- background -->
+  <rect y="4" width="1200" height="106" fill="url(#bg)"/>
+
+  <!-- message -->
+  <text x="600" y="52" text-anchor="middle" font-family="'Fira Code', 'Consolas', monospace" font-size="16" fill="#9CA3AF">// crafted with TypeScript &amp; curiosity</text>
+  <text x="600" y="82" text-anchor="middle" font-family="'Fira Code', 'Consolas', monospace" font-size="14" fill="#4B5563">console.log("thanks for visiting");</text>
 </svg>
