@@ -76,26 +76,25 @@ codebases consistent from the mobile client all the way down to the server.
 
 ## Featured Projects
 
-<!-- Kendi repolarınla güncelle: repo adlarını ve açıklamaları değiştir -->
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/meeertx/PROJECT-1">🚀 Project One</a></h4>
-      <p><sub>Kısa açıklama: ne yapar, hangi problemi çözer. <br/><b>Stack:</b> Next.js · NestJS · PostgreSQL · Prisma</sub></p>
+      <h4><a href="https://github.com/meeertx/kimyaLab">🧪 kimyaLab</a></h4>
+      <p><sub>Chemical product management platform with a full admin panel, real-time inventory tracking, flexible multi-field search (name, CAS number, product code), multilingual certificate management (SDS/COA) and interactive 3D molecule visuals.<br/><b>Stack:</b> React · TypeScript · Firebase · Three.js · Tailwind CSS</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/meeertx/PROJECT-2">📱 Project Two</a></h4>
-      <p><sub>Kısa açıklama: ne yapar, hangi problemi çözer. <br/><b>Stack:</b> React Native · Expo · Firebase</sub></p>
+      <h4><a href="https://github.com/meeertx/cleanerlab">🧹 cleanerlab</a></h4>
+      <p><sub>Cross-platform storage cleaner for iOS and Android that detects similar and duplicate photos using pixel-comparison image analysis over a Node.js mobile bridge. Includes in-app purchases, push notifications, iOS widget and 17+ language support.<br/><b>Stack:</b> React Native · Node.js (JIMP) · MobX</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/meeertx/PROJECT-3">🛠️ Project Three</a></h4>
-      <p><sub>Kısa açıklama: ne yapar, hangi problemi çözer. <br/><b>Stack:</b> React · Node.js · MongoDB</sub></p>
+      <h4><a href="https://github.com/meeertx/helios-ic-portal">🏢 helios-ic-portal</a></h4>
+      <p><sub>Internal company portal that centralizes operations in one place: modular dashboard structure for managing day-to-day workflows, records and team processes.<br/><b>Stack:</b> React · TypeScript · Node.js</sub></p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/meeertx?tab=repositories">📂 All repositories →</a></h4>
-      <p><sub>Diğer projeler, denemeler ve open-source katkıları için tüm repolarıma göz atabilirsin.</sub></p>
+      <p><sub>More projects, experiments and open-source work can be found in my repositories.</sub></p>
     </td>
   </tr>
 </table>
@@ -114,7 +113,7 @@ codebases consistent from the mobile client all the way down to the server.
 
 I'm open to collaboration, freelance work and interesting product ideas.
 The fastest way to reach me is [LinkedIn](https://linkedin.com/in/mert-urper)
-or [e-mail](mailto:mert.urper1@gmail.com). If you're building something
+or [e-mail](mailto:your-email@example.com). If you're building something
 with TypeScript, React or React Native, I'd love to hear about it.
 
 <!-- Footer (self-hosted) -->
