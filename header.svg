@@ -35,10 +35,10 @@
   <text x="80" y="140" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="#F9FAFB">Mert Urper</text>
 
   <!-- role -->
-  <text x="80" y="176" font-family="'Fira Code', 'Consolas', monospace" font-size="18" fill="#9CA3AF">Software Engineer · Full-Stack Web &amp; Mobile · TypeScript</text>
+  <text x="80" y="176" font-family="'Fira Code', 'Consolas', monospace" font-size="18" fill="#9CA3AF">Software Engineer · Full-Stack Web &amp; Mobile · TypeScript · React-Native</text>
 
   <!-- blinking cursor -->
-  <rect x="640" y="162" width="10" height="18" fill="#22D3EE">
+  <rect x="800" y="162" width="10" height="18" fill="#22D3EE">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 
