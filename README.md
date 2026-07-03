@@ -31,10 +31,34 @@ const mert: SoftwareEngineer = {
 };
 ```
 
-- 🔭 Web ve mobil ürünleri fikirden production'a kadar uçtan uca geliştiriyorum
-- 🧩 UI, API, veritabanı ve deployment: her katmanda sorumluluk alırım
-- 📱 **React Native + Expo** ile cross-platform uygulamalar yayınlıyorum
-- 🌱 Sürekli öğrenme modunda, her projede çıtayı yükseltiyorum
+I'm a full-stack engineer who takes products from idea to production. I work across
+the entire stack: designing the UI, building the API, modeling the database, and
+handling deployment. TypeScript is my daily driver on every layer, which keeps my
+codebases consistent from the mobile client all the way down to the server.
+
+- 🔭 Currently building end-to-end web and mobile products
+- 📱 Shipping cross-platform apps with **React Native + Expo**
+- 🧩 Comfortable owning every layer: UI, API, database, CI/CD
+- 🌱 Always learning, always raising the bar with each project
+
+## What I Do
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4 align="center">🌐 Web Applications</h4>
+      <p align="center"><sub>Modern, performant web apps with <b>React</b> and <b>Next.js</b>. SSR, API routes, clean component architecture and pixel-attentive UI with Tailwind CSS.</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">📱 Mobile Apps</h4>
+      <p align="center"><sub>Cross-platform iOS and Android apps with <b>React Native + Expo</b>. One codebase, native feel, over-the-air updates and store-ready releases.</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">⚙️ Backend & APIs</h4>
+      <p align="center"><sub>Scalable REST APIs with <b>Node.js, Express and NestJS</b>. Type-safe data layers with Prisma on PostgreSQL and MongoDB, containerized with Docker.</sub></p>
+    </td>
+  </tr>
+</table>
 
 ## Tech Stack
 
@@ -50,12 +74,48 @@ const mert: SoftwareEngineer = {
 
 </div>
 
-## Contribution Graph
+## Featured Projects
 
-<!-- snake.yml workflow'u tarafından üretilir -->
-<p align="center">
-  <img width="100%" src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
-</p>
+<!-- Kendi repolarınla güncelle: repo adlarını ve açıklamaları değiştir -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/meeertx/PROJECT-1">🚀 Project One</a></h4>
+      <p><sub>Kısa açıklama: ne yapar, hangi problemi çözer. <br/><b>Stack:</b> Next.js · NestJS · PostgreSQL · Prisma</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/meeertx/PROJECT-2">📱 Project Two</a></h4>
+      <p><sub>Kısa açıklama: ne yapar, hangi problemi çözer. <br/><b>Stack:</b> React Native · Expo · Firebase</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/meeertx/PROJECT-3">🛠️ Project Three</a></h4>
+      <p><sub>Kısa açıklama: ne yapar, hangi problemi çözer. <br/><b>Stack:</b> React · Node.js · MongoDB</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/meeertx?tab=repositories">📂 All repositories →</a></h4>
+      <p><sub>Diğer projeler, denemeler ve open-source katkıları için tüm repolarıma göz atabilirsin.</sub></p>
+    </td>
+  </tr>
+</table>
+
+## How I Work
+
+```txt
+01. Understand the problem before writing a single line of code
+02. Type-safe by default: strict TypeScript, end to end
+03. Small commits, readable diffs, meaningful messages
+04. Automate the boring parts: CI/CD, linting, formatting
+05. Ship early, measure, iterate
+```
+
+## Let's Connect
+
+I'm open to collaboration, freelance work and interesting product ideas.
+The fastest way to reach me is [LinkedIn](https://linkedin.com/in/mert-urper)
+or [e-mail](mailto:mert.urper1@gmail.com). If you're building something
+with TypeScript, React or React Native, I'd love to hear about it.
 
 <!-- Footer (self-hosted) -->
 <img width="100%" src="footer.svg" alt="footer"/>
