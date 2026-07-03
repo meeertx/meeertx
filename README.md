@@ -76,21 +76,28 @@ codebases consistent from the mobile client all the way down to the server.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/meeertx/kimyaLab">🧪 kimyaLab</a></h4>
-      <p><sub>Chemical product management platform with a full admin panel, real-time inventory tracking, flexible multi-field search (name, CAS number, product code), multilingual certificate management (SDS/COA) and interactive 3D molecule visuals.<br/><b>Stack:</b> React · TypeScript · Firebase · Three.js · Tailwind CSS</sub></p>
+      <h3>🧪 <a href="https://github.com/meeertx/kimyaLab">kimyaLab</a></h3>
+      <p><sub><code>web app</code></sub></p>
+      <p><sub>Chemical product management platform with a full admin panel, real-time inventory tracking, multi-field search (name, CAS number, product code), multilingual SDS/COA certificate management and interactive 3D molecule visuals.</sub></p>
+      <p><code>React</code> <code>TypeScript</code> <code>Firebase</code> <code>Three.js</code> <code>Tailwind</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/meeertx/cleanerlab">🧹 cleanerlab</a></h4>
-      <p><sub>Cross-platform storage cleaner for iOS and Android that detects similar and duplicate photos using pixel-comparison image analysis over a Node.js mobile bridge. Includes in-app purchases, push notifications, iOS widget and 17+ language support.<br/><b>Stack:</b> React Native · Node.js (JIMP) · MobX</sub></p>
+      <h3>🧹 <a href="https://github.com/meeertx/cleanerlab">cleanerlab</a></h3>
+      <p><sub><code>mobile app</code></sub></p>
+      <p><sub>Cross-platform storage cleaner for iOS and Android that detects similar and duplicate photos using pixel-comparison analysis over a Node.js mobile bridge. In-app purchases, push notifications, iOS widget and 17+ language support.</sub></p>
+      <p><code>React Native</code> <code>Node.js</code> <code>JIMP</code> <code>MobX</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/meeertx/helios-ic-portal">🏢 helios-ic-portal</a></h4>
-      <p><sub>Internal company portal that centralizes operations in one place: modular dashboard structure for managing day-to-day workflows, records and team processes.<br/><b>Stack:</b> React · TypeScript · Node.js</sub></p>
+      <h3>🏢 <a href="https://github.com/meeertx/helios-ic-portal">helios-ic-portal</a></h3>
+      <p><sub><code>internal tool</code></sub></p>
+      <p><sub>Internal company portal that centralizes daily operations: a modular dashboard for managing workflows, records and team processes in one place.</sub></p>
+      <p><code>React</code> <code>TypeScript</code> <code>Node.js</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/meeertx?tab=repositories">📂 All repositories →</a></h4>
+      <h3>📂 <a href="https://github.com/meeertx?tab=repositories">All repositories →</a></h3>
+      <p><sub><code>$ ls ~/projects</code></sub></p>
       <p><sub>More projects, experiments and open-source work can be found in my repositories.</sub></p>
     </td>
   </tr>
