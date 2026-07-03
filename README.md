@@ -91,16 +91,11 @@ const mert: SoftwareEngineer = {
   </tr>
 </table>
 
-## GitHub Stats
+## Contribution Graph
 
+<!-- profile-3d-contrib.yml workflow'u tarafından üretilir -->
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=meeertx&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=22D3EE&icon_color=A855F7&text_color=A9B1D6&bg_color=0D1117" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=meeertx&layout=compact&hide_border=true&langs_count=8&hide=roff,swift,jupyter%20notebook&size_weight=0.5&count_weight=0.5&title_color=22D3EE&text_color=A9B1D6&bg_color=0D1117" alt="Top languages" />
-</p>
-
-<!-- Contribution snake (mevcut snake.yml workflow'u üretiyor) -->
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/meeertx/meeertx/output/snake.svg" alt="contribution snake" />
+  <img width="100%" src="snake.yml/profile-night-rainbow.svg" alt="3D contribution graph" />
 </p>
 
 <!-- Footer (self-hosted) -->
